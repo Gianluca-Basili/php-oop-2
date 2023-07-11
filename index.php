@@ -52,7 +52,7 @@ $products = [
                            peso:<?php echo $product -> weight.'g'; ?>
                         </p>
                         <p class="card-text">
-                          ingredienti: <?php echo $product -> ingredients; ?>
+                          ingredienti: <?php echo $product ->ingredients; ?>
                         </p>
                         <?php } ?>
                         <?php if(get_class($product) === 'Toy'){ ?>
